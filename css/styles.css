@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+h1, h2, p, ul li{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(24, 24, 24);
+}
+h1{
+    font-size: 13vh;  
+}
+h2{
+    font-size: 6vh;
+}
+p{ 
+    font-size: 4vh;
+}
+ul li{
+    padding-left: 30px;
+}
+
+.header{
+    background-image: url("cinemyp.github.io/cinemyp/img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #747474;
+}
+.whynot{
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-but{
+    color: whitesmoke;
+}
+
+.description{
+    min-width: 100%;
+    position: relative;
+    margin:auto;
+    text-align: center;
+}
+
+.container{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+
+.title{
+    margin:auto;
+    position:absolute;
+    top:20%; left: 0; right: 0;
+    text-align: center;
+}
+
+.title h1, .title h2, .title p{
+    color:rgb(255, 255, 255);
+}
+
+.about, .amenities, .advantages, .comments, .forms{
+    position: relative;
+    margin: 4em 0;
+    padding: 10px;
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.about img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.about .desc{
+    padding:2em;
+}
+
+
+.advantages .item{
+    background-color:rgba(0, 128, 0, 0.3);
+    padding: 1em;
+}
+
+.advantages img{
+    width:8%;
+}
+
+.comments img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.forms h2{
+    text-align:center;
+}
